@@ -1,0 +1,6 @@
+xi['PR'] = df1['Precp'] * df1['RH']
+xi['PS'] = df1['Precp'] * df1['StnPres']
+xi['PW'] = df1['Precp'] * df1['WS']
+xi['RS'] = df1['RH'] * df1['StnPres']
+xi['RW'] = df1['RH'] * df1['WS']
+xi['SW'] = df1['StnPres'] * df1['WS']
